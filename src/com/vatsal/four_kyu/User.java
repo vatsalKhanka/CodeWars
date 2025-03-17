@@ -25,7 +25,7 @@ public class User {
 
         if(diff >= 1) progress += 10*diff*diff;
 
-        while(progress >= 100) {
+        while (progress >= 100) {
             rank++;
             if(rank == 0)rank++;
             progress-=100;
